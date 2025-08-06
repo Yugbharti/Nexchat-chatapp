@@ -136,8 +136,8 @@ export default function Chat() {
         <img
           src={
             user?.blocked?.includes(currentUser.id)
-              ? "avatar.jpg"
-              : user?.avatar || "avatar.jpg"
+              ? "/avatar.jpg"
+              : user?.avatar || "/avatar.jpg"
           }
           alt="avatar"
         />
@@ -168,8 +168,8 @@ export default function Chat() {
                 <img
                   src={
                     user?.blocked?.includes(currentUser.id)
-                      ? "avatar.jpg"
-                      : user?.avatar || "avatar.jpg"
+                      ? "/avatar.jpg"
+                      : user?.avatar || "/avatar.jpg"
                   }
                   alt=""
                 />

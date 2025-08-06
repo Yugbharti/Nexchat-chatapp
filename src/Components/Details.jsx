@@ -40,8 +40,8 @@ export default function Details() {
         <img
           src={
             user?.blocked?.includes(currentUser.id)
-              ? "avatar.jpg"
-              : user?.avatar || "avatar.jpg"
+              ? "/avatar.jpg"
+              : user?.avatar || "/avatar.jpg"
           }
           alt=""
         />
@@ -75,7 +75,7 @@ export default function Details() {
           <div className={styles["images"]}>
             <div className={styles["images-info"]}>
               <div className={styles["photo"]}>
-                <img src="image.jpg" alt="" />
+                <img src="/image.jpg" alt="" />
               </div>
               <div className="photo-url">
                 <p>photo_2025.jpg</p>
@@ -89,7 +89,7 @@ export default function Details() {
           <div className={styles["images"]}>
             <div className={styles["images-info"]}>
               <div className={styles["photo"]}>
-                <img src="image.jpg" alt="" />
+                <img src="/image.jpg" alt="" />
               </div>
               <div className="photo-url">
                 <p>photo_2025.jpg</p>
@@ -103,7 +103,7 @@ export default function Details() {
           <div className={styles["images"]}>
             <div className={styles["images-info"]}>
               <div className={styles["photo"]}>
-                <img src="image.jpg" alt="" />
+                <img src="/image.jpg" alt="" />
               </div>
               <div className="photo-url">
                 <p>photo_2025.jpg</p>

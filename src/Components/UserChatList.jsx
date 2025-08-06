@@ -78,7 +78,7 @@ export default function UserChatList({ searchval = "" }) {
           <img
             src={
               chat.user?.blocked?.includes(currentUser.id)
-                ? "avatar.jpg"
+                ? "/avatar.jpg"
                 : chat.user?.avatar
             }
             alt="avatar"

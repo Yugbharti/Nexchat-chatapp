@@ -16,7 +16,7 @@ export default function ChatList() {
       <div className={styles.User}>
         <div className={styles["user-info"]}>
           <div className={styles["user-image"]}>
-            <img src={currentUser.avatar} alt="avatar" />
+            <img src={currentUser.avatar || "/avatar.jpg"} alt="avatar" />
           </div>
           <span className={styles.Name}>{currentUser.username}</span>
         </div>

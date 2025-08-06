@@ -76,7 +76,7 @@ export default function Adduser() {
         </div>
         {user && (
           <div className={styles["user-add"]}>
-            <img src={user.avatar || "avatar.jpg"} alt="" />
+            <img src={user.avatar || "/avatar.jpg"} alt="" />
             <span>{user.username}</span>
             <button onClick={handleAdd}>Add User</button>
           </div>

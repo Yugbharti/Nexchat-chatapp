@@ -92,7 +92,7 @@ export default function Login() {
       <div className={styles["signup"]}>
         <h2>Create an Account</h2>
         <div className={styles["image"]}>
-          <img src={avatar.url || "avatar.jpg"} alt="" />
+          <img src={avatar.url || "/avatar.jpg"} alt="" />
           <label htmlFor="file">
             {loading ? (
               <div>Loading...</div>
